@@ -1,0 +1,117 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: small;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#top_bar {
+	list-style-type: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	vertical-align: middle;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	padding: 5px 8px 5px 8px;
+}
+
+#Apps {
+	width: 20px;
+	height: 20px;
+}
+#Notifications {
+	width: 25px;
+	height: 25px;
+}
+
+#Account {
+	border-radius: 50%;
+}
+
+#logo {
+	position: relative;
+	display: block;
+	clear: both;
+	height: 250px;
+	width: 100%;
+	text-align: center;
+}
+
+#google_logo {
+	display: block;
+	width: 272px;
+	height: 92px;
+	padding-top: 158px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+#Country {
+	position: relative;
+	left: 100px;
+	top: -20px;
+	font-size: 1.2em;
+	color: blue;
+}
+#search {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+#search_input {
+	position: relative;
+	height: 28px;
+	width: 520px;
+	margin: 20px;
+}
+
+.button {
+	background-color: #f8f8f8;
+	font-weight: bold;
+	font-size: 13px;
+	color: #333;
+	border: 1px solid #dcdcdc;
+	border-radius: 3px;
+	padding: 8px 11px;
+	margin: 2px;
+}
+
+#language {
+	text-align: center;
+}
+
+#language p a {
+	color: blue;
+}
+
+#bottom_bar {
+	margin-top: 175px;
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #f2f2f2;
+}
+
+#bottom_left {
+	float: left;
+}
+
+#bottom_right {
+	float: right;
+}
